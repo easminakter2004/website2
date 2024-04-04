@@ -1,0 +1,266 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 10px 0px 10px;
+}
+.header{
+    background-image: url(../images/banner.png);
+    width: 1440px;
+    height: 584px;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 30px;
+
+}
+
+/* navber er kaj */
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.display{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+ul li{
+    margin-left: 40px;
+    color: #3E3E3E;
+font-size: 16px;
+font-weight: 500;
+}
+.heading{
+    color: #3E3E3E;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* background */
+
+.the{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 300px;
+}
+.para{
+    width: 456px;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 40px 0px 470px;
+}
+.btn{
+    display: flex;
+    width: 168px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FFF;
+    color: #3F87F5;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    margin: 10px 40px 0px 630px;
+}
+/* main er kaj*/
+.main{
+    margin-top: 60px;
+}
+.every{
+    display: flex;
+}
+.you{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 85px;
+}
+.amet{
+    width: 501px;
+    height: 88px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+.explore{
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    background: #3F87F5;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+/* our package */
+
+.our{
+    color: #0A0826;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin: 60px 0px 40px 0px;
+}
+.package{
+    display: flex;
+}
+.haeding2{
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 10px;
+    color: #FFFFFF;
+    
+}
+.heading3{
+    color: #231D4F;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.para2{
+    color: #848199;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+.bg{
+    width: 292px;
+    height: 480px;
+    border-radius: 26px;
+    background: #3f88f5d2;
+    padding: 40px;
+}
+.btn2{
+    margin-top: 30px;
+    width: 232px;
+    height: 45px;
+    border-radius: 24px;
+    background: #FFF;
+    color: #3F87F5;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+.para3{
+    color: #848199;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.heading4{
+    color: #231D4F;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+.fire{
+    color: #231D4F;
+    font-size: 28px;
+    font-weight: 700;
+}
+.section{
+    /* width: 1170px; */
+    /* height: 467px; */
+    border-radius: 26px;
+    background: #FFF;
+}
+.btn3{
+    width: 207px;
+    height: 45px;
+    border-radius: 24px;
+    /* opacity: 0.1; */
+    background: #f496d24b;
+    color: #3F87F5;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+
+/* happy clients says */
+
+.happy{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin: 60px 0px 60px 0px;
+}
+.says{
+    display: flex;
+}
+.see{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 0px;
+}
+.says2{
+    width: 360px;
+    height: 323px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.13);
+    padding: 10px 0px 5px 80px;
+}
+.we{
+    color: #0C1920;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.me{
+    color: #747474;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.class{
+    margin-left: 90px;
+}
+
+/* Frequently Asked Questions */
+
+.footer{
+    color: #0D0925;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin: 60px 0px 80px 0px;
+}
+.d{
+    display: flex;
+    margin: 0px 10px 110px 90px;
+
+}
+.how{
+    width: 468px;
+    color: #383838;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.u{
+    width: 468px;
+    color: #383838;
+    font-size: 20px;
+    font-weight: 500;
+}
+.event{
+    width: 500px;
+    height: 111px;
+    color: #7E848C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
